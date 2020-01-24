@@ -1,10 +1,9 @@
 :root {
   --color-primary: black;
-  --color-primary-light: white;
+  --color-primary-light: black;
   --color-secondary: lightgrey;
-  --color-accent: red;
-  --color-neutral-beige: #e2e2e2;
-  --color-whatever: purple;
+  --color-accent: #c4aead;
+  --color-option: white;
 
   --font-primary: "Josefin Sans", "Acumin Pro", Arial, sans-serif;
   --font-secondary: "Acumin Pro", Menlo, Consolas, monospace;
