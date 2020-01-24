@@ -1,8 +1,8 @@
 :root {
-  --color-primary: goldenrod;
-  --color-primary-light: gold;
-  --color-secondary: lightcoral;
-  --color-accent: greenyellow;
+  --color-primary: black;
+  --color-primary-light: white;
+  --color-secondary: lightgrey;
+  --color-accent: red;
   --color-neutral-beige: #e2e2e2;
   --color-whatever: peachpuff;
 
