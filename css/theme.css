@@ -4,10 +4,10 @@
   --color-secondary: lightgrey;
   --color-accent: red;
   --color-neutral-beige: #e2e2e2;
-  --color-whatever: peachpuff;
+  --color-whatever: purple;
 
-  --font-primary: "Alegreya Sans", "Trebuchet MS", Arial, sans-serif;
-  --font-secondary: "Source Code Pro", Menlo, Consolas, monospace;
+  --font-primary: "Josefin Sans", "Acumin Pro", Arial, sans-serif;
+  --font-secondary: "Acumin Pro", Menlo, Consolas, monospace;
 }
 
 html {
