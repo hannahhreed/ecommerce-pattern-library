@@ -1,7 +1,7 @@
 :root {
-  --color-primary: #003152;
-  --color-secondary: lightgrey;
-  --color-accent: #c4aead;
+  --color-primary: #c4aead;
+  --color-secondary: #003152;
+  --color-accent: lightgrey;
   --color-option: white;
 
   --font-primary: "Josefin Sans", "Acumin Pro", Arial, sans-serif;
