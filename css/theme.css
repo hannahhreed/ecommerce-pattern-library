@@ -11,3 +11,20 @@
 html {
   font-family: var(--font-primary);
 }
+
+h1, h2 {
+  font-family: var(--font-secondary);
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-accent);
+}
+
+a:hover {
+  color: var(--color-secondary);
+}
+
+mark {
+  background-color: var(--color-secondary);
+}
