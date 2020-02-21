@@ -1,0 +1,10 @@
+title: "Forms"
+description: |
+  Forms are for the checkout purpose of the website. Customers have to fill out a form in order to be able to purchase the item. We need their information to know where to ship it to, as well as the card information.
+
+patterns:
+  basic:
+    title: "Email Field"
+    description: |
+      Where the customer adds the email address to get copy of receipt and can track order.
+    width: 20em;
