@@ -8,3 +8,7 @@ patterns:
     description: |
       Where the customer adds the email address to get copy of receipt and can track order.
     width: 20em;
+
+    title: "Phone Number Field"
+    description: Customers phone number to have easier access to them if email is not responding.
+    width: 20em;
