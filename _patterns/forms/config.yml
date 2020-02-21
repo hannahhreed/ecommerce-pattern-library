@@ -3,12 +3,22 @@ description: |
   Forms are for the checkout purpose of the website. Customers have to fill out a form in order to be able to purchase the item. We need their information to know where to ship it to, as well as the card information.
 
 patterns:
-  basic:
+  email-field:
     title: "Email Field"
-    description: |
-      Where the customer adds the email address to get copy of receipt and can track order.
-    width: 20em;
+    description: Customers email address to send them copy of receipt and allow them to track order.
+    width: 20em
 
+  phone-number-field:
     title: "Phone Number Field"
     description: Customers phone number to have easier access to them if email is not responding.
-    width: 20em;
+    width: 20em
+
+  address-field:
+    title: "Address Field"
+    description: Address needed for shipping purposes.
+    width: 20em
+
+  dropdown:
+    title: "Dropdown Field"
+    description: Choose your province
+    width: 20em
