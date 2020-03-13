@@ -1,0 +1,7 @@
+.header-hover:hover {
+  color: var(--color-primary);
+}
+
+h3 {
+  color:   --color-secondary: #003152;
+}
