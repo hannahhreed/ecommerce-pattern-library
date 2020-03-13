@@ -2,6 +2,9 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
+  layouts:
+    default: |
+      The default layout should be used for almost every page, it includes the website's primary header & footer.
   title: "Just In Case"
   description: A new hip and stylish electronic case store that allows consumers to design their own cases or choose from a variety of different pre-made cases!
   font_url: "https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,700|Source+Code+Pro:400,700"
@@ -14,3 +17,13 @@ patternbot:
       The primary colors represent a slick and modern style that is directed towards a younger target audience.
     colors.secondary: |
       The secondary colors are more neutral but match the primary colors. They continue the slick and modern look.
+
+collections:
+  products:
+    output: true
+
+defaults:
+  - scope:
+      path: _products
+    values:
+      layout: product

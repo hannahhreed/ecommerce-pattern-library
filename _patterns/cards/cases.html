@@ -1,23 +1,9 @@
-<div class="cards">
-  <img class="img-flex" src="/images/phone-cases.jpg" alt="">
-  <h2>I-Phone Cases</h2>
-  <p>Click here to see our collection of phone cases.</p>
-</div>
-
-<div class="cards">
-  <img class="img-flex" src="/images/tablet-cases.jpg" alt="">
-  <h2>Tablet Cases</h2>
-  <p>Click here to see our collection of tablet cases.</p>
-</div>
-
-<div class="cards">
-  <img class="img-flex" src="/images/laptop-cases.jpg" alt="">
-  <h2>Laptop Cases</h2>
-  <p>Click here to see our collection of laptop cases.</p>
-</div>
-
-<div class="cards">
-  <img class="img-flex" src="/images/samsung-cases.jpg" alt="">
-  <h2>Samsung Cases</h2>
-  <p>Click here to see our collection of samsung cases.</p>
+<div class="card text-center chop">
+  <img class="img-flex" src="{{include.data.image}}" alt="">
+  <div class="island-1-2">
+    <strong class="push-1-4 peta color-primary">${{include.data.price}}</strong>
+    <h2 class="push-1-4">{{include.data.title}}</h2>
+    <p class="push-1-2">{{include.data.description}}</p>
+    {% pattern buttons/basic text="Buy now url=include.data.url" %}
+  </div>
 </div>
