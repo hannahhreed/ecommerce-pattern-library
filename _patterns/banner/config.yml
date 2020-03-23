@@ -1,0 +1,9 @@
+patterns:
+  banner:
+    fields:
+      - name: heading
+        type: string
+        example: "Just In Case"
+      - name: text
+        type: string
+        example: "Shop all: I-phone, Samsung, Tablet, Laptop"
