@@ -13,3 +13,9 @@ patterns:
     description: |
       The ghost button is specifically for banners, where it will be placed in front of busy images.
     background: "--color-primary"
+
+  light:
+    title: "Light"
+    description: |
+      The light button is specifically for banners, where it will be placed in front of busy images.
+    background: "--color-accent"
