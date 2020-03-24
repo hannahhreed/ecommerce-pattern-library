@@ -3,7 +3,9 @@ patterns:
     fields:
       - name: heading
         type: string
-        example: "Just In Case"
+        example: "Shop Now"
+        required: false
       - name: text
         type: string
         example: "Shop all: I-phone, Samsung, Tablet, Laptop"
+        required: false
