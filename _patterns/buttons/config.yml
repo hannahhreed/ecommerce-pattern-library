@@ -18,4 +18,3 @@ patterns:
     title: "Light"
     description: |
       The light button is specifically for banners, where it will be placed in front of busy images.
-    background: "--color-accent"

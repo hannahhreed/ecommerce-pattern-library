@@ -20,7 +20,7 @@
 }
 
 .btn-light {
-  background-color: var(--color-primary);
-  border-color: var(--color-primary);
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
   color: var(--color-secondary);
 }
