@@ -3,7 +3,7 @@
 name: "Sky Blue I-phone case"
 description: |
   Solid colored I-phone case. Sky blue.
-image: "/images/phone-cases.jpg"
+image: "/images/iphone-case.jpg"
 price: 25
 colors:
 - "Blue"
